@@ -1,0 +1,37 @@
+{
+  "name": "Nothing-PairCode",
+  "version": "1.0.0",
+  "description": "Connect Whatsapp With Baileys Code Pairing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "baileys",
+    "code-pairing"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ben-bot-Platform/pair-web.git"
+  },
+  "author": "DGXeon",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "@colors/colors": "1.5.0",
+    "@whiskeysockets/baileys": "^6.6.0",
+    "cfonts": "~2.10.0",
+    "chalk": "~4.1.0",
+    "fs-extra": "^11.1.1",
+    "node-cache": "^5.1.0",
+    "path": "^0.12.7",
+    "pino": "^8.1.0",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "bugs": {
+    "url": "https://github.com/Ben-bot-Platform/pair-web/issues"
+  },
+  "homepage": "https://github.com/Ben-bot-Platform/pair-web#readme"
+}
