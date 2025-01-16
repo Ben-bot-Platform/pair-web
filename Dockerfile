@@ -1,6 +1,9 @@
 # انتخاب تصویر پایه Node.js
 FROM node:18-slim
 
+# نصب Git برای مدیریت وابستگی‌های Git
+RUN apt-get update && apt-get install -y git
+
 # تنظیم پوشه کاری در داخل کانتینر
 WORKDIR /usr/src/app
 
